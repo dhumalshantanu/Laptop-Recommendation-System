@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import joblib
 import re 
-import os
+import os 
 
 
 df = pd.read_csv(r"C:\Users\Shantanu\Desktop\Laptop Recomendation System\Laptop-Recommendation-System\Data\Laptop_Details.csv", encoding="latin1")
